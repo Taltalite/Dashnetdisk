@@ -19,10 +19,10 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
-import { withs, s } from 'react-';
+import { withs, s } from 'react';
 import { instanceOf } from 'prop-types';
 
-import routes from "routes.js";
+// import routes from "routes.js";
 
 import { Link } from 'react-router-dom';
 
@@ -270,4 +270,4 @@ class AdminNavbar extends React.Component {
   }
 }
 
-export default withs(AdminNavbar)
+export default AdminNavbar;

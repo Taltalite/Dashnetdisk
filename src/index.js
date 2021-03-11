@@ -27,9 +27,9 @@ import AdminLayout from "./layouts/Admin/Admin.jsx";
 
 import LoginAndRegister from './layouts/LoginAndRegister.jsx';
 
-import "assets/scss/black-dashboard-react.scss";
-import "assets/demo/demo.css";
-import "assets/css/nucleo-icons.css";
+import "./assets/scss/black-dashboard-react.scss";
+import "./assets/demo/demo.css";
+import "./assets/css/nucleo-icons.css";
 
 const hist = createBrowserHistory();
 

@@ -6,7 +6,7 @@ import { Upload, Icon, Progress, Checkbox, Spin, Radio, message } from 'antd';
 import request from 'superagent'
 import SparkMD5 from 'spark-md5'
 
-import { withs, s } from 'react-';
+import { withs, s } from 'react';
 import { instanceOf } from 'prop-types';
 
 import CONSTANT from '../../variables/CONSTANT';
@@ -795,4 +795,4 @@ DirUpload.propTypes = {
     //...
 }
 
-export default withs(DirUpload)
+export default DirUpload;
